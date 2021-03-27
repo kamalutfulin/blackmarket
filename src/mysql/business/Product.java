@@ -1,8 +1,7 @@
 package mysql.business;
 
-import java.io.Serializable;
 
-public class Product implements Serializable {
+public class Product  {
 
     private static final long serialVersionUID = 1L;
 
