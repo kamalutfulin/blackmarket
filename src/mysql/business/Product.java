@@ -1,21 +1,23 @@
 package mysql.business;
 
 
-public class Product  {
+public class Product {
 
-    private static final long serialVersionUID = 1L;
 
     private int id;
     private String name;
     private int price;
 
-    public Product(){ }
-    public Product(String name, int price){
+    public Product() {
+    }
+
+    public Product(String name, int price) {
 
         this.name = name;
         this.price = price;
     }
-    public Product(int id, String name, int price){
+
+    public Product(int id, String name, int price) {
 
         this.id = id;
         this.name = name;

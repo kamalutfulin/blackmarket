@@ -1,6 +1,7 @@
 
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="mysql.business.*" %>
+<%@ page import="mysql.business.Product;" %>
+<%@ page import="mysql.business.ProductDB" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
