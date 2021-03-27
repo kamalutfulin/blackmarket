@@ -6,11 +6,12 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Products</title>
+    <title>Black Market</title>
     <style type="text/css">
         html {
             height: 100%; /* Высота страницы */
         }
+
         body {
             background-image: url("https://static10.tgstat.ru/channels/_0/1c/1cb26923bf64508ece9e2c0698c3c9a0.jpg"); /* Путь к фоновому рисунку */
             background-position: center bottom; /* Положение фона */
@@ -43,8 +44,9 @@
         <td class="w3-center w3-text-black"><%= u.getPrice()%>
         </td>
         <td class="w3-center w3-text-black">
-            <a href="edit?id=<%= u.getId()%>&name=<%= u.getName()%>&price=<%= u.getPrice()%>">
-                <button>Edit</button></a>
+            <a href="edit?id=<%= u.getId()%>">
+                <button>Edit</button>
+            </a>
         </td>
         <td class="w3-center w3-text-black">
             <form method="post" action="delete">

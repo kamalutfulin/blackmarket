@@ -81,7 +81,7 @@ public class ProductDB {
     }
 
     public static int update(Product product) {
-
+    boolean updateedit;
         try{
             Class.forName("org.postgresql.Driver").getDeclaredConstructor().newInstance();
             try (Connection conn = DriverManager.getConnection(url, username, password)){

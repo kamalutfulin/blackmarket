@@ -32,6 +32,9 @@ public class EditServlet extends HttpServlet {
             int id = Integer.parseInt(request.getParameter("id"));
             String name = request.getParameter("name");
             int price = Integer.parseInt(request.getParameter("price"));
+            System.out.println(name);
+            System.out.println(price);
+            System.out.println(id);
             Product product = new Product(id, name, price);
             ProductDB.update(product);
             response.sendRedirect(request.getContextPath() + "/index");
