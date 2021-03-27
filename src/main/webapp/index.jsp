@@ -29,7 +29,7 @@
 
     <%
 
-        List<Product> productList = (List<Product>) request.getAttribute("products");
+        ArrayList<Product> productList = (ArrayList<Product>) request.getAttribute("products");
         if (productList == null) {
             productList = new ArrayList<>();
         }
