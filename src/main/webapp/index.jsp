@@ -6,7 +6,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Products</title>
+    <title>Black Market</title>
     <style type="text/css">
         html {
             height: 100%; /* Высота страницы */
