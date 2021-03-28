@@ -1,6 +1,6 @@
 
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="mysql.business.Product" %>
+<%@ page import="entity.Product" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
@@ -23,7 +23,7 @@
 
 <marquee direction="left" style="color: #D9470D; font-size: 40px; font-weight: bolder; line-height: 150%; text-shadow: #000000 0px 1px 1px;">Welcome to Black Market! The site is not responsible for the posted product. P.s. payment in bitcoins :)</marquee>
 <h2>Products List</h2>
-<p><a href='<c:url value="/create" />'>Create new</a></p>
+<p><a href='<c:url value="/create" />'>Create product</a></p>
 <table>
 
 

@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import mysql.business.Product;
-import mysql.business.ProductDB;
+import entity.Product;
+import entity.ProductDB;
 
 
 @WebServlet("/edit")

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import mysql.business.ProductDB;
+import entity.ProductDB;
 
 @WebServlet("/delete")
 public class DeleteServlet extends HttpServlet {
