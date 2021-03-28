@@ -13,11 +13,11 @@
 
         body {
 
-            background-image: url("https://static10.tgstat.ru/channels/_0/1c/1cb26923bf64508ece9e2c0698c3c9a0.jpg");
+            background-image: url("https://psv4.userapi.com/c536132/u366282592/docs/d26/bfb46c743261/glitch_2021-3-28_22-50-37.gif?extra=1NXZuO9XsB4evde3BufMCzL8PxFGlPNuifqNpVIqxaG_ZlGsjNUFTk-SsQTaRONoolvbjl4kvkm8WpX13E1bXCvLS1xliRCr9lPVD8zf3IgrzgLzLHJ6HuctpbFCYK6_CjzLiRU02PYSUc__D-LZ1jo");
             background-position: center bottom; /* Положение фона */
             background-repeat: no-repeat; /* Отменяем повторение фона */
         }
-        
+
 
     </style>
 
