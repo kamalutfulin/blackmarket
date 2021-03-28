@@ -17,13 +17,13 @@
             background-repeat: no-repeat; /* Отменяем повторение фона */
         }
     </style>
-    
+
 </head>
 <body>
 
 <marquee direction="left"
          style="color: #D9470D; font-size: 40px; font-weight: bolder; line-height: 150%; text-shadow: #000000 0px 1px 1px;">
-    Welcome to Black Market! The site is not responsible for the posted product. P.s. payment in bitcoins and dollars:)
+    Welcome to Black Market! The site is not responsible for the posted product. P.S. payment in bitcoins and dollars:)
 </marquee>
 <h2>Products List</h2>
 <p><a href='<c:url value="/create" />'>Create product</a></p>
@@ -40,11 +40,11 @@
         for (Product u : productList) {
     %>
     <tr>
-        <td class="w3-center w3-text-black"><%= u.getId()%>
-        </td>
+<%--        <td class="w3-center w3-text-black"><%= u.getId()%>--%>
+<%--        </td>--%>
         <td class="w3-center w3-text-black"><%= u.getName()%>
         </td>
-        <td class="w3-center w3-text-black"><%= u.getPrice()%>
+        <td class="w3-center w3-text-black"><%= u.getPrice()%>$
         </td>
         <td class="w3-center w3-text-black">
             <a href="edit?id=<%= u.getId()%>">
