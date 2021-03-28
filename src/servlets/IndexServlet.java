@@ -1,3 +1,5 @@
+package servlets;
+
 import mysql.business.Product;
 import mysql.business.ProductDB;
 

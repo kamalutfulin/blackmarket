@@ -10,7 +10,7 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 <!--  </welcome-file-list>-->
   <servlet>
     <servlet-name>Index</servlet-name>
-    <servlet-class>IndexServlet</servlet-class>
+    <servlet-class>servlets.IndexServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Index</servlet-name>
