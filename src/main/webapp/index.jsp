@@ -8,14 +8,17 @@
     <title>Black Market</title>
     <style type="text/css">
         html {
-            height: 100%; /* Высота страницы */
+            height: 100%;
         }
 
         body {
-            background-image: url("https://static10.tgstat.ru/channels/_0/1c/1cb26923bf64508ece9e2c0698c3c9a0.jpg"); /* Путь к фоновому рисунку */
+
+            background-image: url("https://static10.tgstat.ru/channels/_0/1c/1cb26923bf64508ece9e2c0698c3c9a0.jpg");
             background-position: center bottom; /* Положение фона */
             background-repeat: no-repeat; /* Отменяем повторение фона */
         }
+
+
     </style>
 
 </head>
@@ -40,8 +43,8 @@
         for (Product u : productList) {
     %>
     <tr>
-<%--        <td class="w3-center w3-text-black"><%= u.getId()%>--%>
-<%--        </td>--%>
+        <%--        <td class="w3-center w3-text-black"><%= u.getId()%>--%>
+        <%--        </td>--%>
         <td class="w3-center w3-text-black"><%= u.getName()%>
         </td>
         <td class="w3-center w3-text-black"><%= u.getPrice()%>$
