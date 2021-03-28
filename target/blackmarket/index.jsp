@@ -17,12 +17,7 @@
             background-repeat: no-repeat; /* Отменяем повторение фона */
         }
     </style>
-    <style>
-        .rightpic {
-            float: right; /* Выравнивание по правому краю */
-            margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
-        }
-    </style>
+    
 </head>
 <body>
 
@@ -64,8 +59,8 @@
         </td>
 
         <td class="w3-center w3-text-black">
-            <p><img src="https://media.tenor.com/images/7192debcb144575e47b8581b97551239/tenor.gif" alt="Иллюстрация"
-                    width="55" height="47" class="rightpic">
+            <p><img src="https://media3.giphy.com/media/3og0IKIiFKbrNa9IR2/giphy.gif" alt="Упс-с"
+                    width="47" height="47" class="rightpic">
         </td>
 
     </tr>
