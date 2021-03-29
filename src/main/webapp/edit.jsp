@@ -5,7 +5,7 @@
     <title>Edit product</title>
     <style>
         body {
-            background: #000000; /* Цвет фона */
+            background: #181111; /* Цвет фона */
             color: #C0C0C0; /* Цвет текста */
         }
     </style>
