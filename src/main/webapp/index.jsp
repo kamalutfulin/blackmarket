@@ -6,6 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Black Market</title>
+    <style>
+        body {
+            background: #000000; /* Цвет фона */
+            color: #C0C0C0; /* Цвет текста */
+        }
+    </style>
     <style type="text/css">
         html {
             height: 100%;
@@ -13,8 +19,8 @@
 
         body {
 
-            background-image: url("https://psv4.userapi.com/c536132/u366282592/docs/d26/bfb46c743261/glitch_2021-3-28_22-50-37.gif?extra=1NXZuO9XsB4evde3BufMCzL8PxFGlPNuifqNpVIqxaG_ZlGsjNUFTk-SsQTaRONoolvbjl4kvkm8WpX13E1bXCvLS1xliRCr9lPVD8zf3IgrzgLzLHJ6HuctpbFCYK6_CjzLiRU02PYSUc__D-LZ1jo");
-            background-position: center bottom; /* Положение фона */
+            background-image: url("https://psv4.userapi.com/c856432/u366282592/docs/d2/8123ae90b2ba/glitch_2021-3-29_10-25-30.gif?extra=o53mKsaCNKWY0JFwbuQ4YKIaIUNuvy19hfuXc-glR1ITvPG17_2XcZfao_1v59G1ESx4hMLQBtxHlvJ7MAvxfFVHk5VfDVnrBQ07U7CoKVwgSKWHRmbheOY222_71KiIuHs7Vr5W_KaNKLXtV-SUN1k");
+            background-position: center center; /* Положение фона */
             background-repeat: no-repeat; /* Отменяем повторение фона */
         }
 
